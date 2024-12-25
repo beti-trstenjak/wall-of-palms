@@ -35,7 +35,7 @@ h1 {
 
 .navigation {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-right: 5%;
 }
 
@@ -236,12 +236,20 @@ h4 {
     margin-right: 20%;
 }
 
+.container {
+    width: 100%;
+}
+
 @media only screen and (min-width:321px) and (max-width:950px) {
     
     .enagrafika {
-        width: 45%;
-        height: 50%;
+        width: 100%;
         float:left;
+    }
+
+    .trigrafike {
+        width: 100%;
+        height: auto;
     }
 
     h1 {
@@ -268,12 +276,18 @@ h4 {
 
 }
 
+
+
 @media only screen and (max-width: 600px) {
     
     .enagrafika {
         width: 100%;
         float:left;
-        height: 70%;
+    }
+
+    .trigrafike {
+        width: 100%;
+        height: auto;
     }
 
     p {
